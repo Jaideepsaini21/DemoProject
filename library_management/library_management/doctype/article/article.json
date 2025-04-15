@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
  "allow_rename": 1,
  "autoname": "field:article_name",
  "creation": "2025-04-14 16:45:39.890805",
@@ -16,7 +17,8 @@
   "section_break_hlux",
   "description",
   "tab_2_tab",
-  "route"
+  "route",
+  "phublised"
  ],
  "fields": [
   {
@@ -75,13 +77,21 @@
    "fieldname": "route",
    "fieldtype": "Data",
    "label": "Route"
+  },
+  {
+   "default": "0",
+   "fieldname": "phublised",
+   "fieldtype": "Check",
+   "label": "Phublised"
   }
  ],
  "grid_page_length": 50,
+ "has_web_view": 1,
  "image_field": "image",
  "index_web_pages_for_search": 1,
+ "is_published_field": "publisher",
  "links": [],
- "modified": "2025-04-14 17:54:05.422634",
+ "modified": "2025-04-15 17:37:30.748377",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
@@ -122,6 +132,7 @@
    "share": 1
   }
  ],
+ "route": "articles",
  "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
