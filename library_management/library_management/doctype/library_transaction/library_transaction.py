@@ -42,7 +42,7 @@ class LibraryTransaction(Document):
         # article cannot be returned if it is not issued first
         if article.status == "Available":
             frappe.throw("Article cannot be returned without being issued first")
-
+#######
     def validate_maximum_limit(self):
         max_articles = frappe.db.get_single_value("Library Settings", "maximum_number_of_issue_articles")
         count = frappe.db.count(
