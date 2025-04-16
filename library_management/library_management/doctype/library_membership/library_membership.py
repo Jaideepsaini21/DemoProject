@@ -24,4 +24,4 @@ class LibraryMembership(Document):
         
         
         loan_period = frappe.db.get_single_value("Library Setting", "loan_period")
-        self.to_date = frappe.utils.add_days(self.from_date, loan_period or 30)
+        self.to_date = frappe.utils.add_days(self.from_date, loan_period or 20)
