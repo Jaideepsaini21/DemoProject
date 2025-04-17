@@ -14,6 +14,7 @@
   "isbm",
   "status",
   "publisher",
+  "get_issued_count",
   "section_break_hlux",
   "description",
   "tab_2_tab",
@@ -83,6 +84,11 @@
    "fieldname": "phublised",
    "fieldtype": "Check",
    "label": "Phublised"
+  },
+  {
+   "fieldname": "get_issued_count",
+   "fieldtype": "Button",
+   "label": "Get Issued Count"
   }
  ],
  "grid_page_length": 50,
@@ -91,7 +97,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "publisher",
  "links": [],
- "modified": "2025-04-16 14:20:46.672304",
+ "modified": "2025-04-17 13:18:28.859137",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
