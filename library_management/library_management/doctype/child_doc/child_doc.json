@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "NO.##",
+ "creation": "2025-04-22 11:42:31.463623",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "child_doc_name",
+  "lib_member",
+  "parent_child_table",
+  "parent_list"
+ ],
+ "fields": [
+  {
+   "fieldname": "child_doc_name",
+   "fieldtype": "Data",
+   "label": "Child Doc Name"
+  },
+  {
+   "fieldname": "lib_member",
+   "fieldtype": "Link",
+   "label": "Lib member",
+   "options": "Library Member"
+  },
+  {
+   "fieldname": "parent_child_table",
+   "fieldtype": "Table",
+   "label": "Parent child table",
+   "options": "parent child table"
+  },
+  {
+   "fieldname": "parent_list",
+   "fieldtype": "Table",
+   "label": "Parent List",
+   "options": "child table parent list"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-22 12:21:43.008298",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Child Doc",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
